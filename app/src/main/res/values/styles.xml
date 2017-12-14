@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextView" parent="TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/nomeArtista</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>item>
+    </style>
+
 </resources>
