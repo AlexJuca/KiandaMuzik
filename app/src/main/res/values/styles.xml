@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
@@ -12,6 +11,11 @@
         <item name="android:fontFamily">@font/montserrat</item>
         <item name="android:text">@string/nomeArtista</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>item>
+    </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
     </style>
 
 </resources>
